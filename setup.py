@@ -6,6 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'numpy',
+        'matplotlib',
     ],
     author='Christian Jenei',
     author_email='christian.oliver.jenei@gmail.com',
@@ -13,3 +14,4 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
 )
+
